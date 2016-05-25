@@ -36,3 +36,28 @@
   860  ./project1.sh
   861  ls
   862  history > project1_history.txt
+  943  cd Documents/LX2_EDGAR/
+  944  ls
+  945  git add
+  946  git add .
+  947  git add --all
+  948  git status
+  949  cd error/
+  950  ls
+  951  rm error2-edgar 
+  952  cd
+  953  git add -all
+  954  git add --all
+  955  git add .
+  956  cd Documents/LX2_EDGAR/
+  957  git add -all
+  958  git add --all
+  959  git status
+  960  history tail
+  961  history | tail
+  962  history | tail -20
+  963  ls
+  964  cd history/
+  965  ls
+  966  history | tail -25
+  967  history | tail -25 >> project1_history.txt 
