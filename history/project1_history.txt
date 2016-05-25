@@ -1,0 +1,38 @@
+  825  cd
+  826  ls
+  827  cd Documents/
+  828  ls
+  829  cd LX2_edgar/
+  830  ls
+  831  cd history/
+  832  cd ..
+  833  mv LX2_edgar LX2_EDGAR
+  834  cd ..
+  835  mv LX2_edgar LX2_EDGAR
+  836  ls
+  837  cd LX2_EDGAR/
+  838  IPtraf
+  839  ls
+  840  lynx.com http://www.tecmint.com/command-line-tools-to-monitor-linux-performance/
+  841  lynx http://www.tecmint.com/command-line-tools-to-monitor-linux-performance/
+  842  git init
+  843  nmap
+  844  ip -4 addr
+  845  nmap 172.20.10.4
+  846  netstat
+  847  fg
+  848  free -m
+  849  free -h
+  850  top
+  851  man top
+  852  man -U edgar
+  853  top -U edgar
+  854  top
+  855  vi project1.sh
+  856  chmod 700 project1.sh 
+  857  project1.sh
+  858  ./project1.sh
+  859  vi project1.sh
+  860  ./project1.sh
+  861  ls
+  862  history > project1_history.txt
