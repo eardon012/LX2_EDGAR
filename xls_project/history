@@ -1,0 +1,60 @@
+ 1058  cd Desktop/
+ 1059  ls
+ 1060  ls -a
+ 1061  cd ..
+ 1062  cd Documents/
+ 1063  ls 
+ 1064  cd LinuxServerAdmin2/
+ 1065  ls
+ 1066  less LVM\ -\ 00\ -\ Introducción\,\ terminología\ y\ componentes.pdf 
+ 1067  cd proyectoFinal/
+ 1068  ls
+ 1069  less PracticaYProblemas.pdf 
+ 1070  fg
+ 1071  pdftotext PracticaYProblemas.pdf 
+ 1072  ls
+ 1073  vim PracticaYProblemas.txt
+ 1074  fg
+ 1075  xpdf PracticaYProblemas.pdf 
+ 1076  sudo apt-get install xpdf
+ 1077  xpdf PracticaYProblemas.pdf 
+ 1078* xpdf >> output
+ 1079  xpdf PracticaYProblemas.pdf > output
+ 1080  ls
+ 1081  vi output
+ 1082  fg
+ 1083  ls
+ 1084  cd
+ 1085  cd Documents/LinuxServerAdmin2/
+ 1086  ls
+ 1087  cd proyectoFinal/
+ 1088  ls
+ 1089  cd problema2
+ 1090  ls
+ 1091  fg
+ 1092  sudo apt-get install xls2csv -y
+ 1093  fg
+ 1094  sudo apt-get update
+ 1095  sudo apt-get install xls2csv -y
+ 1096  sudo apt-get install catdoc
+ 1097  sudo apt-get install xls2csv -y
+ 1098  fg
+ 1099  ls
+ 1100  man xls2csv
+ 1101  ls
+ 1102  cd ..
+ 1103  ls
+ 1104  ls problema2
+ 1105  cp problema2/bills01_2012.xls csvtest.xls
+ 1106  ls
+ 1107  xls2csv csvtest.xls 
+ 1108  ls
+ 1109  xls2csv csvtest.xls >> output
+ 1110  ls
+ 1111  less output 
+ 1112  less history
+ 1113  history less
+ 1114  history
+ 1115  history tail -60 >> ~/Documents/LX2_EDGAR/
+ 1116  history tail -60 >> ~/Documents/LX2_EDGAR/xls_project/history
+ 1117  history | tail -60 >> ~/Documents/LX2_EDGAR/xls_project/history
