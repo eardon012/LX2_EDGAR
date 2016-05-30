@@ -58,3 +58,54 @@
  1115  history tail -60 >> ~/Documents/LX2_EDGAR/
  1116  history tail -60 >> ~/Documents/LX2_EDGAR/xls_project/history
  1117  history | tail -60 >> ~/Documents/LX2_EDGAR/xls_project/history
+ 1084  git add .
+ 1085  git status
+ 1086  cd .git
+ 1087  ls
+ 1088  cd branches/
+ 1089  ls
+ 1090  ls -a
+ 1091  cd ..
+ 1092  history | grep push master
+ 1093  history | grep push
+ 1094  git push origin master
+ 1095  ls
+ 1096  cd xls_project/
+ 1097  ls
+ 1098  vi problema2.sh
+ 1099  pwd
+ 1100  vi problema2.sh
+ 1101  ls ~/Documents/
+ 1102  fg
+ 1103  ls ~/Documents/LinuxServerAdmin2/proyectoFinal/
+ 1104  fg
+ 1105  vi problema2.sh
+ 1106  fg
+ 1107  history | less
+ 1108  history | chmod
+ 1109  history | grep chmod
+ 1110  ls
+ 1111  chmod 700 problema2.sh 
+ 1112  cd ..
+ 1113  ls
+ 1114  cd LinuxServerAdmin2/
+ 1115  cd proyectoFinal/problema2
+ 1116  ls
+ 1117  cd ..
+ 1118  ls
+ 1119  cd ..
+ 1120  cd LX2_EDGAR/
+ 1121  cd xls_project/
+ 1122  ls
+ 1123  ./problema2.sh 
+ 1124  cd ..
+ 1125  cd LinuxServerAdmin2/
+ 1126  cd proyectoFinal/
+ 1127  ls
+ 1128  cd problema2
+ 1129  ls
+ 1130  cd archivos_csv/
+ 1131  ls
+ 1132  history tail -50
+ 1133  history | tail -50
+ 1134  history | tail -51 >> ~/Documents/LX2_EDGAR/xls_project/history 
