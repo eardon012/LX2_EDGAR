@@ -13,4 +13,4 @@ do
 
 	xls2csv $i > $OUT_DATA/data-$m.csv
 	let m=m+1
-done 2> error1.log
+done 2> ~/Documents/LX2_EDGAR/problemas1y2/problema2/error/error1.log
