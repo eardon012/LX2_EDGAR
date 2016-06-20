@@ -16,9 +16,6 @@ Format a4 is redefined
 Format a4 is redefined
 Format a4 is redefined
 Format a4 is redefined
-Format a4 is redefined
-Format a4 is redefined
-Format a4 is redefined
-Format a4 is redefined
-Format a4 is redefined
-Format a4 is redefined
+./problema2.sh: line 61: GNU Plot File ready: command not found
+./problema2.sh: line 66: GNUPLOT: command not found
+./problema2.sh: line 84: plot: command not found
