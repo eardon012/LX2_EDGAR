@@ -26,7 +26,7 @@ do
 	xls2csv -q 0 $i > $DATACSV/data-$m.csv
         echo " Getting CSV data-$m.csv ready for GNUplot "
         ls -lh $DATACSV
-	awk -F"," '{print $1,$2,$3}' $DATACSV/data-$m.csv >> $DATAPLOT/plot$m.dat
+	awk -F"," '{print $1,$2,$3,$4}' $DATACSV/data-$m.csv >> $DATAPLOT/plot$m.dat
         echo "plot$m.dat File ready"
         ls -lh $DATAPLOT
 
@@ -39,20 +39,18 @@ set terminal png
 set output"$DATAPNG/plot$m.png"
 
 set xlabel "Time" 
-set xrange [001:300]
+set xrange [001:260]
 
 set ylabel "Measurements"
-set yrange [0:60]
+set yrange [0:45]
 
 set grid
 
 set title "Plot $m"
 
-set linestyle 1 lt 1 lw 6
-set linestyle 2 lt 2 lc 1
-set linestyle 3 lt 3 lc 3
+set style data linespoints
 
-plot "$DATAPLOT/plot$m.dat" using 1:2 title "Sensor 1", "" using 1:3 title "Sensor 2", "" using 1:4 title "Sensor 4"
+plot "$DATAPLOT/plot$m.dat" using 1:2 title "Sensor 1", "" using 1:3 title "Sensor 2", "" using 1:4 title "Sensor 3"
 __EOF
 
 let m=m+1
